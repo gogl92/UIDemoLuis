@@ -1,0 +1,68 @@
+<resources>>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00bae2</item>
+        <item name="colorPrimaryDark">#0095b5</item>
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <item name="drawerArrowStyle">@style/Theme.Test.DrawerArrowStyle</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:tabWidgetStyle">@style/MyTabs</item>
+
+        <!-- Both of these are needed -->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="AppThemeSettings" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#00bae2</item>
+        <item name="colorPrimaryDark">#0095b5</item>
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <item name="drawerArrowStyle">@style/Theme.Test.DrawerArrowStyle</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:tabWidgetStyle">@style/MyTabs</item>
+
+        <!-- Both of these are needed -->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+    <style name="MyTabs">
+    <!--<item name="android:background">@drawable/tab_bar_background</item>-->
+</style>
+    <style name="Theme.Test.DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#008aa4</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomShowcaseTheme2" parent="ShowcaseView">
+        <item name="sv_backgroundColor">#ddbbbbc9</item>
+        <item name="sv_showcaseColor">@android:color/holo_blue_light</item>
+        <item name="sv_buttonText">GOT IT</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/CustomText2</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="CustomTitle2" parent="TextAppearance.ShowcaseView.Title.Light">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+
+    <style name="CustomText2" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+
+</resources>

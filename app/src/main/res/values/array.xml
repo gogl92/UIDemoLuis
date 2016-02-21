@@ -1,0 +1,26 @@
+<resources>
+    <string-array name="list_song_entries">
+        <item>Wilhelm scream</item>
+        <item>Wilhelm no scream</item>
+        <item>Music</item>
+        <item>List item 4</item>
+    </string-array>
+    <string-array name="list_song_values">
+        <item>Wilhelm scream</item>
+        <item>Wilhelm no scream</item>
+        <item>Music</item>
+        <item>List item 4</item>
+    </string-array>
+
+    <string-array name="list_color_entries">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Black</item>
+
+    </string-array>
+    <string-array name="list_color_values">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Black</item>
+    </string-array>
+</resources>

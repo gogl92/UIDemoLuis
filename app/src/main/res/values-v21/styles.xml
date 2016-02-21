@@ -1,0 +1,41 @@
+<resources>>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00bae2</item>
+        <item name="colorPrimaryDark">#0095b5</item>
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <item name="drawerArrowStyle">@style/Theme.Test.DrawerArrowStyle</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <item name="android:tabWidgetStyle">@style/MyTabs</item>
+
+        <!-- Both of these are needed -->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+    <style name="AppThemeSettings" parent="Base.V22.Theme.AppCompat.Light">
+        <!--<item name="colorPrimary">#00bae2</item>-->
+        <!--<item name="colorPrimaryDark">#0095b5</item>-->
+        <!--&lt;!&ndash;<item name="colorAccent">#FF4081</item>&ndash;&gt;-->
+        <!--<item name="drawerArrowStyle">@style/Theme.Test.DrawerArrowStyle</item>-->
+        <!--<item name="android:titleTextStyle">@style/TitleBarTextColor</item>-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <!--<item name="android:tabWidgetStyle">@style/MyTabs</item>-->
+
+        <!-- Both of these are needed -->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+    <style name="MyTabs">
+
+        <!--<item name="android:background">@drawable/tab_bar_background</item>-->
+
+    </style>
+    <style name="Theme.Test.DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#008aa4</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

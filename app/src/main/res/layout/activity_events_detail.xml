@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/events_cover1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/white"
+        android:layout_marginStart="17dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Run The Jewels"
+        android:id="@+id/textView5"
+        android:layout_marginBottom="46dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toEndOf="@+id/fab" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="July 19"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginBottom="23dp"
+        android:textColor="#9d9d9d"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VENUE NAME"
+        android:id="@+id/textView9"
+        android:textColor="@color/colorBluePrimary"
+        android:layout_below="@+id/fab"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Iron City, Birmingham, AL"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TICKET PRICE"
+        android:textColor="@color/colorBluePrimary"
+
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_toEndOf="@+id/fab"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="$30.00"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_toEndOf="@+id/fab"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUY TICKET"
+        android:id="@+id/buybutton"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toEndOf="@+id/textView5"
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ABOUT"
+        android:textColor="@color/colorBluePrimary"
+
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast at both ends; fast to Queequeg&apos;s broad canvas belt, and fast to my narrow leather one. So that for better or for worse, we two, for the time, were wedded; and should poor"
+        android:id="@+id/textView14"
+        android:maxLines = "4"
+
+        android:scrollbars = "vertical"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginLeft="5dp" />
+
+</RelativeLayout>

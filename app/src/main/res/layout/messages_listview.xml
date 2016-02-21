@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_weight="2.97"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="?android:selectableItemBackground">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/person_photo"
+                app:border="false"
+
+                />
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/person_photo"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_title"
+                android:layout_toRightOf="@+id/person_photo"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:text="Title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_content"
+                android:text="Content"
+                android:textStyle="bold"
+                android:layout_below="@+id/message_title"
+                android:layout_toEndOf="@+id/person_photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2h"
+                android:id="@+id/message_time"
+                android:layout_alignTop="@+id/message_title"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

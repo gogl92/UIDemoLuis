@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inbox" android:icon="@android:drawable/ic_menu_send"
+            android:title="Inbox" />
+        <item android:id="@+id/nav_branches" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Branches" />
+        <item android:id="@+id/nav_events" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Events" />
+        <item android:id="@+id/nav_info" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Info" />
+        <item android:id="@+id/nav_news" android:icon="@android:drawable/ic_menu_zoom"
+            android:title="News" />
+
+        <!--<item android:id="@+id/nav_settings" android:icon="@android:drawable/ic_menu_set_as"-->
+            <!--android:title="Settings" />-->
+    </group>
+
+
+</menu>
