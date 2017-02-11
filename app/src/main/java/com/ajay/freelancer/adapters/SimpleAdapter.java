@@ -47,7 +47,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
 
     @Override
     public void onBindViewHolder(SimpleViewHolder holder, final int position) {
-        int id = mContext.getResources().getIdentifier("gal"+position, "drawable", mContext.getPackageName());
+        int id = mContext.getResources().getIdentifier("gal" + position, "drawable", mContext.getPackageName());
 
         holder.title.setBackgroundResource(id);
     }
